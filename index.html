@@ -47,73 +47,75 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">
-            <img style="max-width:200px; margin-top: -7px;"
-            src="chine.png">
-          </a>
+          <a class="navbar-brand" href="#">Upstanders</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="advice.html">Advice</a></li>
+            <li><a href="contact.html">Contact</a></li>
           
-          
+          </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
 
     <div class="container theme-showcase glyph-nav" role="main">
-
-
-      
-
-      <p id="weapons_harassment" class="anchor"></p>
+	
       <div id=question>
       <h1>Are you (or someone else) in imminent danger or does the harasser have a weapon?</h1>
-      <a name="harrasment_weapons_yes" href="#harassment_weapons_choose_yes"class="btn btn-primary btn-lg btn-block"> Yes</a>
-      <a name="place" href="#place" class="btn btn-primary btn-lg btn-block"> No</a>
+      <a href="#harassment_weapons_choose_yes" class="btn btn-primary btn-lg btn-block disabled"> YES, CALL 911!</a>
+      <a href="#harassment_weapons_choose_no" class="btn btn-primary btn-lg btn-block"> No</a>
 
-      <div id="question-number">></a></div>
+      <div id="question-number"><a name="Q2">Question 1</a></div>
       </div>
+	  
+	  
+	  
+	  <p id="harassment_weapons_choose_no" class="anchor"></p>
+	  
+	  <div id="question">
+      <h1>Where are you?</h1>
+      <a href="#public_place" class="btn btn-primary btn-lg btn-block"> Public Place</a>
+      <a href="#social_place" class="btn btn-primary btn-lg btn-block"> Party / Social Gathering</a>
 
+      <div id="question-number"><a name="Q3">Question 2</a></div>
+      </div>
+	  
+	  <br id="victim_who"></br>
+	  <br id="social_place_victim"></br>
+	  
 
-
-
-<p id="place" class="anchor"></p>
-<div id="question">
-        <h1>Where are you?</h1>
-      <a href="#public_space"class="btn btn-primary btn-lg btn-block"> Public Place</a>
-      <a href="#party_social" class="btn btn-primary btn-lg btn-block"> Party / Social Gathering</a>
-      <div id="question-number">></div>
-
-</div>
-
-
-<p id="public_space" class="anchor"></p>
-<div id="question">
-      
+	  <p id="public_place" class="anchor"></p>
+	  <div id="question">
       <h1>Who are you?</h1>
-      <a href="#victim_pp"class="btn btn-primary btn-lg btn-block"> The one in danger</a>
-      <a href="#bystander_pp" class="btn btn-primary btn-lg btn-block"> Bystander</a>
+      <a href="public_place.html" class="btn btn-primary btn-lg btn-block"> Victim</a>
+      <a href="public_place_bystander.html" class="btn btn-primary btn-lg btn-block"> Bystander</a>
 
-      <div id="question-number">></div>
-</div>
-      
-
-
-<p id="party_social" class="anchor"></p>
-<div id="question">
-      
+      <div id="question-number"><a name="Q4">Question 3</a></div>
+      </div>
+	  
+	  <br id=""></br>
+	 
+	  <p id="social_place" class="anchor"></p>
+	  
+	  <div id="question">
       <h1>Who are you?</h1>
-      <a href="#victim_pp"class="btn btn-primary btn-lg btn-block"> The one in danger</a>
-      <a href="#bystander_pp" class="btn btn-primary btn-lg btn-block"> Bystander</a>
+      <a href="social_place_victim.html" class="btn btn-primary btn-lg btn-block"> Person in Danger</a>
+      <a href="social_place.html" class="btn btn-primary btn-lg btn-block"> Bystander</a>
 
-      <div id="question-number">></div>
-</div>
+      <div id="question-number"><a name="Q4">Question 3</a></div>
+      </div>
+	  
+	  <br id=""></br>
+	 
+	  <p id="" class="anchor"></p>
+	  
 
+	  
 
+	  
 
 
 
